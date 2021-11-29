@@ -114,8 +114,8 @@ example
 
 Implement a stack to keep track of who is using what plates, using the given file below:
 
-[stack.py](assignments/stack.py)
+[stack assignment](assignments/stack.py)
 
 After at least attempting to solve, check your answer for a possible answer here:
 
-[solution.py](solutions/stack.py)
+[solution](solutions/stack.py)

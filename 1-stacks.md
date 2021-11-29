@@ -112,10 +112,8 @@ example
 
 ## Problem
 
-Implement a stack to keep track of who is using what plates, using the given file below:
+Implement a stack to keep track of who is using what plates, using 
+[this file](assignments/stack.py).
 
-[Stack Assignment](assignments/stack.py)
-
-After at least attempting to solve, check your answer for a possible answer here:
-
-[Solution](solutions/stack.py)
+After at least attempting to solve, check your answer for against a 
+[possible solution](solutions/stack.py)

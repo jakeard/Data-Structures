@@ -1,6 +1,6 @@
 # Stacks
 
-The stack uses "Last in, First out" (LIFO) in order to add and remove things from itself. This means that the last thing that is added to the stack is the first thing that is removed when you go to remove something from it. In Python, a list is used to implement a stack.
+The stack uses "Last in, First out" (LIFO) in order to add and remove things from itself. This means that the last thing that is added to the stack is the first thing that is removed when you go to remove something from it. This is useful to keep track of where you have been or values that you have used and may need to use again in the future. In Python, a list is used to implement a stack.
 
 ## Call Stack
 

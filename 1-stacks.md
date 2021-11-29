@@ -112,7 +112,7 @@ example
 
 ## Problem
 
-Implement a stack to keep track of who is using what plates, using the 
+Implement a stack to keep track of who is using what plates and what plates are available, using the 
 [stack assignment](assignments/stack.py) file.
 
 After at least attempting to solve, check your answer against a 

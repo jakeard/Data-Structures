@@ -118,4 +118,4 @@ Implement a stack to keep track of who is using what plates, using the given fil
 
 After at least attempting to solve, check your answer for a possible answer here:
 
-[solution.py](answers/stack.py)
+[solution.py](solutions/stack.py)

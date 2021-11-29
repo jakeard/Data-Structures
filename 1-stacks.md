@@ -6,7 +6,7 @@ The stack uses "Last in, First out" (LIFO) in order to add and remove things fro
 
 Have you ever wondered how a program keeps track of where it is in your code, and how it knows what functions to go back to? That is one way a stack is used in Python. The term for this specific example is the **_Call Stack_**, and it can be seen when running the debugger on a python program. It looks like this:
 
-![Call Stack](images/Callstack.png)
+![Call Stack](images/callstack.png)
 
 As you can see, the program enters the function main(), then do_something(), do_something_else(), do_something_different(), etc. When a function finishes, it is removed from the call stack.
 

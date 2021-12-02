@@ -26,7 +26,8 @@ ll.tail = node
 print('\n------------------------------')
 print('EXERCISE 2')
 print('------------------------------')
-# TODO - Create a function called 'back_new_node'  in the LinkedList class that will add a new node to the back of the linked list.
+# TODO - Create a function called 'back_new_node'  in the LinkedList class that will add a new node 
+# to the back of the linked list.
 
 ll = LinkedList()
 ll.back_new_node(1)
@@ -44,7 +45,8 @@ print(ll.tail.prev.data) # 3
 print('\n------------------------------')
 print('EXERCISE 3')
 print('------------------------------')
-# TODO - Create a function called 'front_new_node' in the LinkedList class that will add a new node to the front of the linked list.
+# TODO - Create a function called 'front_new_node' in the LinkedList class that will add a new node 
+# to the front of the linked list.
 
 ll.front_new_node(5)
 ll.back_new_node(0)
@@ -80,14 +82,14 @@ print(ll.tail.data) # 2
 try:
     ll.remove_head()
     print(ll.head.data)
-except:
+except AttributeError:
     print('No head is left in the list!')
 try:
     ll.remove_tail()
     print(ll.tail.data)
-except:
+except AttributeError:
     print('No tail is left in the list!')
 
 # Last two should say:
-# No head is left in the list!
-# No tail is left in the list!
+#   No head is left in the list!
+#   No tail is left in the list!

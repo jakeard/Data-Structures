@@ -116,14 +116,14 @@ print(ll.tail.data) # 2
 try:
     ll.remove_head()
     print(ll.head.data)
-except:
+except AttributeError:
     print('No head is left in the list!')
 try:
     ll.remove_tail()
     print(ll.tail.data)
-except:
+except AttributeError:
     print('No tail is left in the list!')
 
 # Last two should say:
-# No head is left in the list!
-# No tail is left in the list!
+#   No head is left in the list!
+#   No tail is left in the list!

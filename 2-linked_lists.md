@@ -193,3 +193,5 @@ Follow the instructions in the [assignment file](assignments/linked_list.py).
 
 After at least attempting to solve, check your answer against a 
 [possible solution](solutions/linked_list_solution.py).
+
+[Return to Welcome page](0-welcome.md)

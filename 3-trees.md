@@ -148,3 +148,5 @@ Follow the instructions in the [assignment file](assignments/trees.py).
 
 After at least attempting to solve, check your answer against a 
 [possible solution](solutions/trees_solution.py).
+
+[Return to Welcome page](0-welcome.md)

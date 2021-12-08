@@ -117,3 +117,5 @@ Implement a stack to keep track of who is using what plates and what plates are 
 
 After at least attempting to solve, check your answer against a 
 [possible solution](solutions/stack_solution.py).
+
+[Return to Welcome page](0-welcome.md)

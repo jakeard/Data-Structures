@@ -77,25 +77,15 @@ print(add_one(0)) # prints 10, because that is the number that we use as the bas
 The above code will output:
 ```
 0
-
 1
-
 2
-
 3
-
 4
-
 5
-
 6
-
 7
-
 8
-
 9
-
 10
 ```
 From the debugger, you can see that the function calls itself, and is kept on the call stack:

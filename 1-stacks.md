@@ -122,4 +122,9 @@ Implement a stack to keep track of who is using what plates and what plates are 
 After at least attempting to solve, check your answer against a 
 [possible solution](solutions/stack_solution.py).
 
+
+[Linked Lists Tutorial](2-linked_lists.md)
+
+[Trees Tutorial](3-trees.md)
+
 [Return to Welcome page](0-welcome.md)

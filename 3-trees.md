@@ -153,4 +153,9 @@ Follow the instructions in the [assignment file](assignments/trees.py).
 After at least attempting to solve, check your answer against a 
 [possible solution](solutions/trees_solution.py).
 
+
+[Stacks Tutorial](1-stacks.md)
+
+[Linked Lists Tutorial](2-linked_lists.md)
+
 [Return to Welcome page](0-welcome.md)

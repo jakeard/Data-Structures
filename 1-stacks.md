@@ -116,4 +116,4 @@ Implement a stack to keep track of who is using what plates and what plates are 
 [stack assignment](assignments/stack.py) file.
 
 After at least attempting to solve, check your answer against a 
-[possible solution](solutions/stack.py).
+[possible solution](solutions/stack_solution.py).

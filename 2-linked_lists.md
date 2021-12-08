@@ -189,7 +189,50 @@ Some common errors in using linked lists include forgetting to change the pointe
 
 ## Example
 
-The examples given in the inserting and deletion segment of this tutorial assumes that a linked list class has already been made to take care of the operations. Those examples are what will help you in the problem set.
+The following example assumes there is a linked list class that keeps track of all the nodes, the head, and the tail of the linked list.
+
+
+
+```python
+"""
+Iterate through the linked list to remove the 
+node with data value 3 from the linked list, 
+and then print all node's data values from 
+head to tail.
+"""
+
+def find_add_node(remove_data):
+    # function to remove the node with the given data value.
+
+    # sets the current node to the linked list's head node.
+    curr_node = my_linked_list.head
+
+    # while the current node's data is not equal to the data value passed in to be removed
+    while curr_node.data != remove_data:
+        # set the new current node to the present current node's next node.
+        curr_node = curr_node.next
+    
+    # after the value is found, remove the node.
+    curr_node.prev.next = curr_node.next
+    curr_node.next.prev = curr_node.prev
+
+def show_nodes():
+    # function to print all node's data from head to tail.
+
+    # sets the current node to the linked list's head node.
+    curr_node = my_linked_list.head
+
+    # while the current node exists
+    while curr_node != None:
+        # print the current node's data, and set the new current node to the present current node's next node. 
+        print(curr_node.data)
+        curr_node = curr_node.next
+
+# remove node with data value 3
+find_add_node(3)
+# show all nodes 
+show_nodes()
+```
 
 ## Problem
 

@@ -41,4 +41,16 @@ print(bst.root.right.left.data) # 4
 print('\n------------------------------')
 print('EXERCISE 3')
 print('------------------------------')
-# TODO - Create a function to traverse through the BST and print all nodes' data values.
+# TODO - Create a function in the BST class clled "traverse" to traverse through the BST and print all 
+# nodes' data values. You may need to define the __iter__ function, which will iterate through the tree, 
+# calling your traverse function and using the yield command to get the node data. Create any extra functions 
+# that you may also need.
+
+bst.insert(7)
+bst.insert(6)
+bst.insert(0)
+bst.insert(-1)
+bst.insert(11)
+bst.insert(22)
+bst.insert(-3)
+bst.traverse() # Output: -3, -1, 0, 1, 3, 4, 5, 6, 7, 11, 22

@@ -75,7 +75,7 @@ print(add_one(0)) # prints 10, because that is the number that we use as the bas
 ```
 
 The above code will output:
-
+```
 0
 
 1
@@ -97,7 +97,7 @@ The above code will output:
 9
 
 10
-
+```
 From the debugger, you can see that the function calls itself, and is kept on the call stack:
 
 ![Call Stack With Recursion](images/rcs.png)

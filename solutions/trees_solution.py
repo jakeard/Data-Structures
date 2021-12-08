@@ -89,6 +89,4 @@ bst.insert(-1)
 bst.insert(11)
 bst.insert(22)
 bst.insert(-3)
-bst.traverse() # Output: -3, -1, 0, 1, 3, 4, 5, 6, 7, 11, 22
-
-             
+bst.traverse() # Output: -3, -1, 0, 1, 3, 4, 5, 6, 7, 11, 22             

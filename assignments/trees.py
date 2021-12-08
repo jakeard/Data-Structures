@@ -21,19 +21,20 @@ bst = BST()
 node = bst.Node(3)
 bst.root = node
 
+
 print('\n------------------------------')
 print('EXERCISE 2')
 print('------------------------------')
-# TODO - Create a function in the BST class called insert that will insert a new node into the BST. 
+# TODO - Create a function in the BST class called "insert" that will insert a new node into the BST. 
 # There should be no nodes with the same data value. If a duplicate node tries to be inserted, print 
-# "Node already exists".
+# "Node already exists". Create any extra functions that you may need.
 
-bst.insert(1, bst.root)
+bst.insert(1)
 print(bst.root.data) # 3
 print(bst.root.left.data) # 1
-bst.insert(5, bst.root)
-bst.insert(4, bst.root)
-bst.insert(3, bst.root) # Node already exists
+bst.insert(5)
+bst.insert(4)
+bst.insert(3) # Node already exists
 print(bst.root.right.data) # 5
 print(bst.root.right.left.data) # 4
 

@@ -41,3 +41,4 @@ print(bst.root.right.left.data) # 4
 print('\n------------------------------')
 print('EXERCISE 3')
 print('------------------------------')
+# TODO - Create a function to traverse through the BST and print all nodes' data values.

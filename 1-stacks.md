@@ -83,6 +83,10 @@ Check if empty: O(1)
 
 All of the operations listed for stacks in this module are very efficient, and are all O(1). This is why stacks are a great data structure to use in appropriate places.
 
+## Common Errors
+
+It is important to remember that the last thing that goes on the stack is the first thing that comes off. If you start removing from the front, then you have changed from a stack to a queue, and it may mess up the data that you have already entered into the stack.
+
 ## Example
 
 ```python

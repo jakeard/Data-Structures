@@ -104,6 +104,10 @@ Python does not have a built in BST data structure, so these operations assume y
 
 ![Tree Operations](images/tree_ops.png)
 
+## Common Errors
+
+The common errors for trees are similar to linked lists, in that you may forget to have a pointer point to a new node after attempting to add the new node to the tree. 
+
 ## Example
 
 Once again, the following example assumes you have already created a way to keep track of a BST.

@@ -183,6 +183,10 @@ Some common operations that can be used on linked lists, along with their Big O 
 
 ![Linked List Operations](images/linked_list_ops.png)
 
+## Common Errors
+
+Some common errors in using linked lists include forgetting to change the pointers of the already existing nodes when adding or removing a node. This will make your linked list broken, because you may have a node in the linked list that is pointing to a node that no longer exists, or you are not pointing to a new node that now should exist in the linked list.
+
 ## Example
 
 The examples given in the inserting and deletion segment of this tutorial assumes that a linked list class has already been made to take care of the operations. Those examples are what will help you in the problem set.

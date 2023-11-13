@@ -10,7 +10,7 @@ A node can look something like this:
 
 ![Node](images/linked-list.png)
 
-As you can see, the node contains the data, and a link to the next node. The first node in a linked list is known as the head, and the last is the tail. The tail points to **NULL** or **None**, signifying that it is the end of the linked list, until something new is added. Python uses None, so that is what I wil use to describe this.
+As you can see, the node contains the data, and a link to the next node. The first node in a linked list is known as the head, and the last is the tail. The tail points to **NULL** or **None**, signifying that it is the end of the linked list, until something new is added. Python uses `None`, so that is what I wil use to describe this.
 
 Multiple nodes together in a linked list look like this:
 
